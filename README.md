@@ -7,8 +7,8 @@ Object-Oriented Programming with C++
 
 - [Facebook Group](https://www.facebook.com/groups/1363756907135887/)
 - [Barely Used Discord](https://discord.gg/z4j2hZB)
+- [Lab Repo](https://github.com/dimitrinavasileva/OOP2020-KN2)
 - TODO: Moodle Course
-- TODO: Repo for lab exercises
 
 ## Repository Structure
 
