@@ -26,6 +26,6 @@ std::vector<int> v;
 std::copy(
 	std::istream_iterator<int>{std::cin},
 	std::istream_iterator<int>{},
-	back_inserter_iterator<int>{v}
+	back_inserter_iterator<std::vector<int>>{v}
 ); // OK. back_inserter deals with resizing
 ```
