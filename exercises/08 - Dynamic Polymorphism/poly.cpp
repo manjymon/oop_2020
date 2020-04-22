@@ -84,6 +84,15 @@ int main()
         x->notify("Message");
     }
 
+    for (Notifier* x: arr)
+    {
+        EmailNotifier* ptr{dynamic_cast<EmailNotifier*>(x)};
+        if (ptr)
+        {
+            ptr->check_connection();
+        }
+    }
+
     for (auto x: arr)
     {
         delete x;
