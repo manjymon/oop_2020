@@ -119,7 +119,6 @@ size_t find_next(const std::string& expr, size_t from)
 
     for(size_t counter{1} ; counter ; ++from)
     {
-        // shadow
         current = expr[from];
         if (current == '(')
         {
