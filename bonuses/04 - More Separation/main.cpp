@@ -1,4 +1,4 @@
-#include "noisy.hpp"
+#include "noisy.cpp"
 
 int main()
 {

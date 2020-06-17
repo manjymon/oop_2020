@@ -2,7 +2,7 @@
 
 ## Scope Guard
 
-Design a way to delay the incovation of void(\*)() procedures to the end of the scope. Also implement a way to dismiss the invocation at will. Make sure that one delayed invocation will NEVER be done twice.
+Design a way to delay the invocation of void(\*)() procedures to the end of the scope. Also implement a way to dismiss the invocation at will. Make sure that one delayed invocation will NEVER be done twice.
 
 ## Example + Notes
 

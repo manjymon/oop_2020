@@ -34,7 +34,7 @@ class Noisy
 
 ## Noisy's API
 
-- Noisy should countain an integer
+- Noisy should contain an integer
 - Every special member function of Noisy should output its name and the contained (or copied) integer e.g. "DTOR 6"
 - shout should output something in the console but **only** if should_shout returns true (in this toy example, should shout always returns true but you are not allowed to skip the check)
 - The entire logic of shout should be in the Implementation class (to simulate a more complex example), the method in Noisy should only act as a *connection*.

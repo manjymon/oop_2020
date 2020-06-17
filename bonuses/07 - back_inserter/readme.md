@@ -2,7 +2,7 @@
 
 ## Problem
 
-Using algorithms with normal vector iteratos could sometimes get us out of bounds.
+Using algorithms with normal vector iterators could sometimes get us out of bounds.
 
 ```c++
 std::vector<int> v;
@@ -17,7 +17,7 @@ std::copy(
 
 ## Task
 
-Write an output iterator ```back_inserter_iterator``` that takes a containter like vector and can safely be used to push elements to the back.
+Write an output iterator ```back_inserter_iterator``` that takes a container like vector and can safely be used to push elements to the back.
 
 ## Example usage
 
